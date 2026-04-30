@@ -28,13 +28,13 @@ chatbot-poc/
 
 2. **Create and activate a virtual environment**
    ```bash
-   python3 -m venv venv
-   source venv/bin/activate
+   python -m venv venv
+   .\venv\Scripts\Activate.ps1
    ```
 
 3. **Install dependencies**
    ```bash
-   pip install -r requirements.txt
+   pip install -r requirements
    ```
 
 4. **Run migrations**
